@@ -45,7 +45,9 @@ class App extends Component {
   handlePredictClick = (event) => {
     const formData = this.state.formData;
     this.setState({ isLoading: true });
-    fetch('http://localhost:5000/prediction/', 
+
+    const url = process.env.REACT_APP_API_URL || "http://localhost:5000";
+    fetch(url+'/prediction/', 
       {
         headers: {
           'Accept': 'application/json',
