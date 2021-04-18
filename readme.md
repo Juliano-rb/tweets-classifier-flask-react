@@ -1,5 +1,6 @@
 # tweets-classifier-flask-react
-Classificador de tweets com um serviço flask e frontend em react.js
+Classificador de tweets com um serviço flask e frontend em react.js.
+
 Aplicação criada para a disciplina Sistemas Suportados Por Aprendizagem de máquina do curso de Bacharelado em Informática da Universidade Federal de Alagoas.
 Para a criação do sistema, foi utilizado como base o repositório https://github.com/intelligentagents/aprendizagem-supervisionada/tree/master/ml-apps/movies-classifier-flask-react que faz a classificação de reviews de filmes.
 
