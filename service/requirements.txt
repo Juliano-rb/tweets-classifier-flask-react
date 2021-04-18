@@ -1,0 +1,10 @@
+Werkzeug==0.16.0
+Flask==1.0.2
+flask-restplus==0.12.1
+numpy==1.20.2
+scikit-learn==0.20.3
+bs4==0.0.1
+regex==2019.11.1
+joblib==1.0.1
+flask-cors==3.0.10
+requests==2.25.1
