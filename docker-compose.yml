@@ -22,7 +22,7 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=development
-      - REACT_APP_API_URL=http://104.131.21.143:3000
+      - REACT_APP_API_URL=http://104.131.21.143:5000
     depends_on:
       - service
     command: yarn run start
